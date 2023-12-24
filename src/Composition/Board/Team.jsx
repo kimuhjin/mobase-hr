@@ -105,7 +105,7 @@ const TeamLeader = () => {
           fontSize: "14px",
         }}
       >
-        Supervisor
+        Team Leader
       </Typography>
       <Stack
         component="img"
