@@ -4,7 +4,6 @@ import { Button, CircularProgress, Stack, Typography } from "@mui/material";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 import { db } from "../../firebase-config";
 import { LoadingDim } from "../Common/LoadingDim";
-import { NewYear } from "../NewYear";
 
 export const BoardsContainer = ({ id, readonly = false, isExpand }) => {
   const [boards, setBoards] = useState([]);
@@ -68,7 +67,6 @@ export const BoardsContainer = ({ id, readonly = false, isExpand }) => {
       <LoadingDim isLoading={isLoading || isGetLoading} fullSize={isExpand} />
       {!isGetLoading && (
         <Stack sx={{ width: "100%", height: "100%" }}>
-          <NewYear />
           <Stack
             sx={{
               gap: "4px",
