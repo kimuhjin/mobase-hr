@@ -8,11 +8,11 @@ import { BsClipboardData } from "react-icons/bs";
 import { BOARD_TEAM } from "../Constant/route";
 
 export const GROUP_LIST = [
-  { label: "0th floor (1KS & 4MF)", id: "1ks_4mf" },
-  { label: "0th floor  (OFD)", id: "ofd" },
-  { label: "clean room (5RC)", id: "5sr" },
-  { label: "clean room (3CL)", id: "3cl" },
-  { label: "1st floor (Ren)", id: "ren" },
+  { label: "KS", id: "1ks_4mf" },
+  { label: "MF", id: "ofd" },
+  { label: "RC", id: "5sr" },
+  { label: "CL", id: "3cl" },
+  { label: "REN", id: "ren" },
   { label: "smt  (SMT)", id: "smt" },
 ];
 export const Team = () => {
@@ -60,11 +60,11 @@ export const Team = () => {
                 setSelectedBoardId(e.target.value);
               }}
             >
-              <MenuItem value="1ks_4mf">{`0th floor (1KS & 4MF)`}</MenuItem>
-              <MenuItem value="ofd">{`0th floor  (OFD)`}</MenuItem>
-              <MenuItem value="5sr">{`clean room (5RC)`}</MenuItem>
-              <MenuItem value="3cl">{`clean room (3CL)`}</MenuItem>
-              <MenuItem value="ren">{`1st floor (Ren)`}</MenuItem>
+              <MenuItem value="1ks_4mf">{`KS`}</MenuItem>
+              <MenuItem value="ofd">{`MF`}</MenuItem>
+              <MenuItem value="5sr">{`RC`}</MenuItem>
+              <MenuItem value="3cl">{`CL`}</MenuItem>
+              <MenuItem value="ren">{`REN`}</MenuItem>
               <MenuItem value="smt">{`smt  (SMT)`}</MenuItem>
             </Select>
           )}

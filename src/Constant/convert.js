@@ -1,9 +1,9 @@
 export const groupObj = {
-  "1ks_4mf": "0th floor (1KS & 4MF)",
-  ofd: "0th floor  (OFD)",
-  "5sr": "clean room (5RC)",
-  "3cl": "clean room (3CL)",
-  ren: " 1st floor (Ren)",
+  "1ks_4mf": "KS",
+  ofd: "MF",
+  "5sr": "RC",
+  "3cl": "CL",
+  ren: " REN",
   smt: "smt (SMT)",
 };
 
